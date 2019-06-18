@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA68F2922B8EC1D00CB20F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA68F2822B8EC1D00CB20F9 /* AppDelegate.swift */; };
+		2DA68F2B22B8EC1D00CB20F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA68F2A22B8EC1D00CB20F9 /* ViewController.swift */; };
+		2DA68F2E22B8EC1D00CB20F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA68F2C22B8EC1D00CB20F9 /* Main.storyboard */; };
+		2DA68F3022B8EC1E00CB20F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA68F2F22B8EC1E00CB20F9 /* Assets.xcassets */; };
+		2DA68F3322B8EC1E00CB20F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA68F3122B8EC1E00CB20F9 /* LaunchScreen.storyboard */; };
+		2DA68F3E22B8EC1E00CB20F9 /* FrontierRecordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA68F3D22B8EC1E00CB20F9 /* FrontierRecordsTests.swift */; };
+		2DA68F4922B8EC1E00CB20F9 /* FrontierRecordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA68F4822B8EC1E00CB20F9 /* FrontierRecordsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA68F3A22B8EC1E00CB20F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA68F1D22B8EC1D00CB20F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA68F2422B8EC1D00CB20F9;
+			remoteInfo = FrontierRecords;
+		};
+		2DA68F4522B8EC1E00CB20F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA68F1D22B8EC1D00CB20F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA68F2422B8EC1D00CB20F9;
+			remoteInfo = FrontierRecords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA68F2522B8EC1D00CB20F9 /* FrontierRecords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontierRecords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA68F2822B8EC1D00CB20F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DA68F2A22B8EC1D00CB20F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DA68F2D22B8EC1D00CB20F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA68F2F22B8EC1E00CB20F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA68F3222B8EC1E00CB20F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA68F3422B8EC1E00CB20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA68F3922B8EC1E00CB20F9 /* FrontierRecordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontierRecordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA68F3D22B8EC1E00CB20F9 /* FrontierRecordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontierRecordsTests.swift; sourceTree = "<group>"; };
+		2DA68F3F22B8EC1E00CB20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA68F4422B8EC1E00CB20F9 /* FrontierRecordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontierRecordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA68F4822B8EC1E00CB20F9 /* FrontierRecordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontierRecordsUITests.swift; sourceTree = "<group>"; };
+		2DA68F4A22B8EC1E00CB20F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA68F2222B8EC1D00CB20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F3622B8EC1E00CB20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F4122B8EC1E00CB20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA68F1C22B8EC1D00CB20F9 = {
+			isa = PBXGroup;
+			children = (
+				2DA68F2722B8EC1D00CB20F9 /* FrontierRecords */,
+				2DA68F3C22B8EC1E00CB20F9 /* FrontierRecordsTests */,
+				2DA68F4722B8EC1E00CB20F9 /* FrontierRecordsUITests */,
+				2DA68F2622B8EC1D00CB20F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA68F2622B8EC1D00CB20F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA68F2522B8EC1D00CB20F9 /* FrontierRecords.app */,
+				2DA68F3922B8EC1E00CB20F9 /* FrontierRecordsTests.xctest */,
+				2DA68F4422B8EC1E00CB20F9 /* FrontierRecordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA68F2722B8EC1D00CB20F9 /* FrontierRecords */ = {
+			isa = PBXGroup;
+			children = (
+				2DA68F2822B8EC1D00CB20F9 /* AppDelegate.swift */,
+				2DA68F2A22B8EC1D00CB20F9 /* ViewController.swift */,
+				2DA68F2C22B8EC1D00CB20F9 /* Main.storyboard */,
+				2DA68F2F22B8EC1E00CB20F9 /* Assets.xcassets */,
+				2DA68F3122B8EC1E00CB20F9 /* LaunchScreen.storyboard */,
+				2DA68F3422B8EC1E00CB20F9 /* Info.plist */,
+			);
+			path = FrontierRecords;
+			sourceTree = "<group>";
+		};
+		2DA68F3C22B8EC1E00CB20F9 /* FrontierRecordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA68F3D22B8EC1E00CB20F9 /* FrontierRecordsTests.swift */,
+				2DA68F3F22B8EC1E00CB20F9 /* Info.plist */,
+			);
+			path = FrontierRecordsTests;
+			sourceTree = "<group>";
+		};
+		2DA68F4722B8EC1E00CB20F9 /* FrontierRecordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA68F4822B8EC1E00CB20F9 /* FrontierRecordsUITests.swift */,
+				2DA68F4A22B8EC1E00CB20F9 /* Info.plist */,
+			);
+			path = FrontierRecordsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA68F2422B8EC1D00CB20F9 /* FrontierRecords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA68F4D22B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecords" */;
+			buildPhases = (
+				2DA68F2122B8EC1D00CB20F9 /* Sources */,
+				2DA68F2222B8EC1D00CB20F9 /* Frameworks */,
+				2DA68F2322B8EC1D00CB20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrontierRecords;
+			productName = FrontierRecords;
+			productReference = 2DA68F2522B8EC1D00CB20F9 /* FrontierRecords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA68F3822B8EC1E00CB20F9 /* FrontierRecordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA68F5022B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecordsTests" */;
+			buildPhases = (
+				2DA68F3522B8EC1E00CB20F9 /* Sources */,
+				2DA68F3622B8EC1E00CB20F9 /* Frameworks */,
+				2DA68F3722B8EC1E00CB20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA68F3B22B8EC1E00CB20F9 /* PBXTargetDependency */,
+			);
+			name = FrontierRecordsTests;
+			productName = FrontierRecordsTests;
+			productReference = 2DA68F3922B8EC1E00CB20F9 /* FrontierRecordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA68F4322B8EC1E00CB20F9 /* FrontierRecordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA68F5322B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecordsUITests" */;
+			buildPhases = (
+				2DA68F4022B8EC1E00CB20F9 /* Sources */,
+				2DA68F4122B8EC1E00CB20F9 /* Frameworks */,
+				2DA68F4222B8EC1E00CB20F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA68F4622B8EC1E00CB20F9 /* PBXTargetDependency */,
+			);
+			name = FrontierRecordsUITests;
+			productName = FrontierRecordsUITests;
+			productReference = 2DA68F4422B8EC1E00CB20F9 /* FrontierRecordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA68F1D22B8EC1D00CB20F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = frontier;
+				TargetAttributes = {
+					2DA68F2422B8EC1D00CB20F9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2DA68F3822B8EC1E00CB20F9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2DA68F2422B8EC1D00CB20F9;
+					};
+					2DA68F4322B8EC1E00CB20F9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2DA68F2422B8EC1D00CB20F9;
+					};
+				};
+			};
+			buildConfigurationList = 2DA68F2022B8EC1D00CB20F9 /* Build configuration list for PBXProject "FrontierRecords" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA68F1C22B8EC1D00CB20F9;
+			productRefGroup = 2DA68F2622B8EC1D00CB20F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA68F2422B8EC1D00CB20F9 /* FrontierRecords */,
+				2DA68F3822B8EC1E00CB20F9 /* FrontierRecordsTests */,
+				2DA68F4322B8EC1E00CB20F9 /* FrontierRecordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA68F2322B8EC1D00CB20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA68F3322B8EC1E00CB20F9 /* LaunchScreen.storyboard in Resources */,
+				2DA68F3022B8EC1E00CB20F9 /* Assets.xcassets in Resources */,
+				2DA68F2E22B8EC1D00CB20F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F3722B8EC1E00CB20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F4222B8EC1E00CB20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA68F2122B8EC1D00CB20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA68F2B22B8EC1D00CB20F9 /* ViewController.swift in Sources */,
+				2DA68F2922B8EC1D00CB20F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F3522B8EC1E00CB20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA68F3E22B8EC1E00CB20F9 /* FrontierRecordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA68F4022B8EC1E00CB20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA68F4922B8EC1E00CB20F9 /* FrontierRecordsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA68F3B22B8EC1E00CB20F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA68F2422B8EC1D00CB20F9 /* FrontierRecords */;
+			targetProxy = 2DA68F3A22B8EC1E00CB20F9 /* PBXContainerItemProxy */;
+		};
+		2DA68F4622B8EC1E00CB20F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA68F2422B8EC1D00CB20F9 /* FrontierRecords */;
+			targetProxy = 2DA68F4522B8EC1E00CB20F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA68F2C22B8EC1D00CB20F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA68F2D22B8EC1D00CB20F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA68F3122B8EC1E00CB20F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA68F3222B8EC1E00CB20F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA68F4B22B8EC1E00CB20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DA68F4C22B8EC1E00CB20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA68F4E22B8EC1E00CB20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA68F4F22B8EC1E00CB20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA68F5122B8EC1E00CB20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontierRecords.app/FrontierRecords";
+			};
+			name = Debug;
+		};
+		2DA68F5222B8EC1E00CB20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontierRecords.app/FrontierRecords";
+			};
+			name = Release;
+		};
+		2DA68F5422B8EC1E00CB20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecordsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecordsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrontierRecords;
+			};
+			name = Debug;
+		};
+		2DA68F5522B8EC1E00CB20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Y34D5XY8;
+				INFOPLIST_FILE = FrontierRecordsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontier.FrontierRecordsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrontierRecords;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA68F2022B8EC1D00CB20F9 /* Build configuration list for PBXProject "FrontierRecords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA68F4B22B8EC1E00CB20F9 /* Debug */,
+				2DA68F4C22B8EC1E00CB20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA68F4D22B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA68F4E22B8EC1E00CB20F9 /* Debug */,
+				2DA68F4F22B8EC1E00CB20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA68F5022B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA68F5122B8EC1E00CB20F9 /* Debug */,
+				2DA68F5222B8EC1E00CB20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA68F5322B8EC1E00CB20F9 /* Build configuration list for PBXNativeTarget "FrontierRecordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA68F5422B8EC1E00CB20F9 /* Debug */,
+				2DA68F5522B8EC1E00CB20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA68F1D22B8EC1D00CB20F9 /* Project object */;
+}
